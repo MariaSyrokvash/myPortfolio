@@ -1,0 +1,36 @@
+.linkBox {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  width: 50%;
+  height: 50%;
+  background-color: #222;
+}
+
+.borderBtmLeft {
+  border-bottom: 10px solid #111111;
+  border-left: 10px solid #111111;
+}
+
+.borderTopRight {
+  border-top: 10px solid #111111;
+  border-right: 10px solid #111111;
+}
+
+.borderTopLeft {
+  border-top: 10px solid #111111;
+  border-left: 10px solid #111111;
+}
+
+.yellow {
+  color: #ffb400;
+}
+
+.white {
+  color: #fff;
+}
