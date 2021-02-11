@@ -20,3 +20,21 @@
   margin-top: 24px;
   height: calc(100vh - 48px);
 }
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+
+.linkBack {
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  width: 30px;
+  cursor: pointer;
+  z-index: 100;
+}

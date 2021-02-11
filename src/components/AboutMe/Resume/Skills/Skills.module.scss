@@ -1,0 +1,44 @@
+@import "src/assets/sass/variables";
+
+.skillBox {
+  width: 100%;
+  box-shadow: 0px -3px 16px 3px $border;
+
+  .skillHeadingBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 31.5px;
+    font-weight: 700;
+    background: $bgFourth;
+    width: 100%;
+    border-bottom: 1px solid $border;
+
+    .skillHeading {
+      margin: 0;
+      width: 100%;
+      padding: 24px;
+      text-align: center;
+      color: $accentText;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 21px;
+    }
+  }
+}
+
+.animation {
+  animation: animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes animation {
+  0% {
+    transform: rotate3d(1, 1, 0, -80deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}
+

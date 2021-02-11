@@ -1,0 +1,31 @@
+@import "src/assets/sass/variables";
+
+.box {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $primaryText;
+  text-decoration: none;
+  width: 50%;
+  height: 50%;
+  .borderBtmRight {
+    border-bottom: 10px solid $bgPrimary;
+    border-right: 10px solid $bgPrimary;
+  }
+  .textIntro {
+    color: $secondaryText;
+    font-size: 20px;
+  }
+  .textIntroName {
+    color: $primaryText;
+    font-size: 35px;
+    margin: 20px 0;
+  }
+  .textIntroAccent {
+    color: $accentText;
+  }
+}

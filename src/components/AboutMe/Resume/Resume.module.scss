@@ -1,0 +1,49 @@
+@import "src/assets/sass/variables";
+
+.resumeBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .resumeBtnBox {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    width: 33.3%;
+  }
+  .resumeComponentBox {
+    display: flex;
+    width: 66.6%;
+    border: 1px solid $border;
+    margin-left: 24px;
+    min-height: 725px;
+  }
+}
+
+
+.resumeBtn {
+  font-size: 1.15rem;
+  line-height: 110%;
+  text-transform: uppercase;
+  margin: 24px 0;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  background-color: $bgSecondary;
+  color: $thirdText;
+  border: 1px solid $thirdText;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 600;
+  background-color: $accentText;
+  color: $primaryText;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

@@ -4,6 +4,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  overflow-y: auto;
   left: 0 !important;
   padding: 0;
   margin: 0;
@@ -11,7 +12,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rosybrown;
+  background-color: #222222;
+}
+
+.contactsInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .animation {

@@ -1,13 +1,12 @@
+@import "./src/assets/sass/variables";
 body {
   margin: 0;
-  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
-  /*  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
-  /*  sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lato', serif, Calibri, Arial;
-  color: white;
-  background: #111;
+  //font-family: 'Lato', serif, Calibri, Arial;
+  font-family: 'Open Sans', sans-serif;
+  color: $primaryText;
+  background: $bgPrimary;
   font-size: 0.9em;
   font-weight: 400;
 }
