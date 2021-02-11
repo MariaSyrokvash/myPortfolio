@@ -16,21 +16,24 @@
   height: 100%;
   background-color: $bgSecondary;
 
-  .portfolioInner {
+  .portfolioWrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
 
-    .example {
-      min-height: 500px;
-      background-color: $bgSecondary;
+    .portfolioInner {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 24px;
+
+      .portfolioProjects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
     }
 
-    .example2 {
-      height: 800px;
-      background-color: $bgSecondary;
-    }
   }
 
 }

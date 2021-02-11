@@ -1,0 +1,14 @@
+@import "../../../../assets/sass/variables";
+
+
+
+//form
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.formError {
+  color: red;
+}

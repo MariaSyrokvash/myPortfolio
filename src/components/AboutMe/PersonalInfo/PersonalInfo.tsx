@@ -1,9 +1,27 @@
 import s from './PersonalInfo.module.scss';
 import React from 'react';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import {faUser} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
+const personalInfo = [
+	{title: 'First Name: ', content: 'Mariya'},
+	{title: 'Last Name: ', content: 'Syrakvash'},
+	{title: 'Date of birth: ', content: '11 May 1994'},
+	{title: 'English: ', content: 'B1'},
+	{title: 'Address: ', content: 'Minsk, Belarus'},
+	{title: 'Email: ', content: 'mariya.syrokvash@gmail.com'},
+	{title: 'Phone: ', content: '+375 29 859 58 38'},
+	{title: 'Telegram: ', content: '@MariyaSyrokvash'},
+]
+
 export const PersonalInfo = () => {
+
+	const info = personalInfo.map((el, index) => {
+		return <li className={s.personalInfoItem} key={index}>
+			<span>{el.title}</span>
+			<span>{el.content}</span>
+		</li>
+	})
 	return (
 		<div className={s.personalBox}>
 			<div className={s.personalInfo}>
@@ -17,45 +35,12 @@ export const PersonalInfo = () => {
 				</p>
 				<div className={s.personalInfoInner}>
 					<ul className={s.personalInfoList}>
-						<li className={s.personalInfoItem}>
-							<span >First Name: </span>
-							<span>Mariya </span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>Last Name: </span>
-							<span>Syrokvash </span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>Date of birth: </span>
-							<span>11 May 1994 </span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>English: </span>
-							<span>B1</span>
-						</li>
-					</ul>
-					<ul className={s.personalInfoList}>
-						<li className={s.personalInfoItem}>
-							<span>Address:  </span>
-							<span>Minsk, Belarus </span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>Phone: </span>
-							<span>+375 29 859 58 38 </span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>Email: </span>
-							<span>mariya.syrokvash@gmail.com</span>
-						</li>
-						<li className={s.personalInfoItem}>
-							<span>Telegram:</span>
-							<span>@MariyaSyrokvash</span>
-						</li>
+						{info}
 					</ul>
 				</div>
 			</div>
 			<div className={s.resume}>
-				<a href="" className={s.resumeLink}>Download Resume </a>
+				<a href="" className={s.resumeLink}>Download Resume</a>
 			</div>
 		</div>
 	)

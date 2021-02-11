@@ -20,7 +20,6 @@ export const Resume = () => {
 				<button onClick={experienceClickHandler} className={experienceClassName}>experience</button>
 				<button onClick={skillsClickHandler} className={skillsClassName}>skills</button>
 			</div>
-
 			<div className={s.resumeComponentBox}>
 				{activeComponent ? <Experience/> : <Skills/>}
 			</div>
