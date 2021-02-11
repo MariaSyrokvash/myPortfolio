@@ -1,6 +1,8 @@
 import React from 'react';
 import s from './ContactFormBlock.module.scss';
 import {useFormik} from 'formik';
+import axios from 'axios';
+import {log} from 'util';
 
 type FormikErrorType = {
 	name?: string
@@ -55,7 +57,8 @@ export const ContactForm = () => {
 			return errors;
 		},
 		onSubmit: values => {
-			alert(JSON.stringify(values));
+			console.log(JSON.stringify(values));
+			axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {values })
 			formik.resetForm()
 		},
 	});

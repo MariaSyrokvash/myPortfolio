@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/social.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/Project/Project.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/Project/Project.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/sendMessage.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/Resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +19,7 @@
       <list>
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -84,7 +72,8 @@
       <workItem from="1610241110571" duration="96000" />
       <workItem from="1610241226552" duration="1196000" />
       <workItem from="1610281773344" duration="7768000" />
-      <workItem from="1612953754207" duration="33696000" />
+      <workItem from="1612953754207" duration="33764000" />
+      <workItem from="1613072285435" duration="329000" />
     </task>
     <servers />
   </component>
