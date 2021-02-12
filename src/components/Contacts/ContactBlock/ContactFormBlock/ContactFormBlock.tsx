@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from './ContactFormBlock.module.scss';
 import {useFormik} from 'formik';
 import axios from 'axios';
@@ -38,10 +38,6 @@ export const ContactForm = () => {
 		validate: (values) => {
 			const errors: FormikErrorType = {};
 
-			// if (!values.name) {
-			// 	errors.name = 'Required';
-			// }
-
 			if (!values.email) {
 				errors.email = 'Required';
 			} else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
@@ -58,7 +54,19 @@ export const ContactForm = () => {
 		},
 		onSubmit: values => {
 			console.log(JSON.stringify(values));
-			axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {values })
+			const {name, email, message} = values;
+			axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {
+			// axios.post('http://localhost:3010/sendMessage', {
+				name,
+				email,
+				message
+			}).then(res => {
+					console.log(res)
+					debugger
+				})
+				.catch(err => {
+					console.log(err)
+				})
 			formik.resetForm()
 		},
 	});
@@ -86,7 +94,8 @@ export const ContactForm = () => {
 					id='message'
 					{...formik.getFieldProps('message')}
 				/>
-				{formik.errors.message && formik.touched.message ? <div className={s.formError}>{formik.errors.message}</div> : null}
+				{formik.errors.message && formik.touched.message ?
+					<div className={s.formError}>{formik.errors.message}</div> : null}
 
 				<button type="submit">Send</button>
 			</div>

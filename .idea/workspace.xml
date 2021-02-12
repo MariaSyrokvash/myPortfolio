@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dal/sendMessage.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,9 @@
       <workItem from="1610241226552" duration="1196000" />
       <workItem from="1610281773344" duration="7768000" />
       <workItem from="1612953754207" duration="33764000" />
-      <workItem from="1613072285435" duration="329000" />
+      <workItem from="1613072285435" duration="571000" />
+      <workItem from="1613073157962" duration="183000" />
+      <workItem from="1613126236320" duration="1832000" />
     </task>
     <servers />
   </component>
