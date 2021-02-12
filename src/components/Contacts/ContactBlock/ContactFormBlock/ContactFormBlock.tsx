@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import s from './ContactFormBlock.module.scss';
 import {useFormik} from 'formik';
-import axios from 'axios';
-import {log} from 'util';
+import {formAPI} from '../../../../dal/api';
 
 type FormikErrorType = {
 	name?: string
@@ -12,12 +11,11 @@ type FormikErrorType = {
 
 export const ContactFormBlock = () => {
 
-
 	return (
 		<div className={s.contactBox}>
 			<div>
-				<h3>FEEL FREE TO DROP ME A LINE</h3>
-				<p>If you have any suggestion, project or even you want to say Hello.. Please fill out the form below and I will
+				<h3 className={s.formTitle}>FEEL FREE TO DROP ME A LINE</h3>
+				<p className={s.formText}>If you have any suggestion, project or even you want to say Hello.. Please fill out the form below and I will
 					reply you shortly.</p>
 			</div>
 			<ContactForm/>
@@ -52,21 +50,24 @@ export const ContactForm = () => {
 
 			return errors;
 		},
-		onSubmit: values => {
+		onSubmit: async values => {
 			console.log(JSON.stringify(values));
-			const {name, email, message} = values;
-			axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {
-			// axios.post('http://localhost:3010/sendMessage', {
-				name,
-				email,
-				message
-			}).then(res => {
-					console.log(res)
-					debugger
-				})
-				.catch(err => {
-					console.log(err)
-				})
+			// const {name, email, message} = values;
+			// debugger
+			// axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {
+			// // axios.post('http://localhost:3010/sendMessage', {
+			// 	name,
+			// 	email,
+			// 	message
+			// }).then(res => {
+			// 		console.log(res)
+			// 	})
+			// 	.catch(err => {
+			// 		console.log(err)
+			// 	})
+			const res = await formAPI.sendMessage(values)
+			console.log(res)
+
 			formik.resetForm()
 		},
 	});
@@ -75,29 +76,36 @@ export const ContactForm = () => {
 	return (
 		<form onSubmit={formik.handleSubmit}>
 			<div className={s.formBox}>
-				<label htmlFor="name">Your Name</label>
-				<input
-					id='name'
-					{...formik.getFieldProps('name')}
-				/>
-				{formik.errors.name && formik.touched.name ? <div className={s.formError}>{formik.errors.name}</div> : null}
+				<div className={s.group}>
+					<input type="text" required className={s.input} {...formik.getFieldProps('name')}/>
+					<span className={s.highlight}></span>
+					<span className={s.bar}></span>
+					<label className={s.label}>Your Name</label>
+					{formik.errors.name && formik.touched.name ? <div className={s.formError}>{formik.errors.name}</div> : null}
+				</div>
 
-				<label htmlFor="email">Email Address</label>
-				<input
-					id='email'
-					{...formik.getFieldProps('email')}
-				/>
-				{formik.errors.email && formik.touched.email ? <div className={s.formError}>{formik.errors.email}</div> : null}
 
-				<label htmlFor="message">Your Message</label>
-				<input
-					id='message'
-					{...formik.getFieldProps('message')}
-				/>
-				{formik.errors.message && formik.touched.message ?
-					<div className={s.formError}>{formik.errors.message}</div> : null}
+				<div className={s.group}>
+					<input type="text" required className={s.input} {...formik.getFieldProps('email')}/>
+					<span className={s.highlight}></span>
+					<span className={s.bar}></span>
+					<label className={s.label}>Email Address</label>
+					{formik.errors.email && formik.touched.email ?
+						<div className={s.formError}>{formik.errors.email}</div> : null}
+				</div>
 
-				<button type="submit">Send</button>
+
+				<div className={s.group}>
+					<input type="text" required className={s.input} {...formik.getFieldProps('message')}/>
+					<span className={s.highlight}></span>
+					<span className={s.bar}></span>
+					<label className={s.label}>Your Message</label>
+					{formik.errors.message && formik.touched.message ?
+						<div className={s.formError}>{formik.errors.message}</div> : null}
+				</div>
+
+
+				<button type="submit" className={s.formBtn}>Send Message</button>
 			</div>
 		</form>
 	);

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dal/api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Contacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock" />
       <recent name="$PROJECT_DIR$/src/components/Contacts" />
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
       <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills" />
       <recent name="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo" />
-      <recent name="$PROJECT_DIR$/src/components/AboutMe/Experience" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
@@ -72,7 +76,8 @@
       <workItem from="1612953754207" duration="33764000" />
       <workItem from="1613072285435" duration="571000" />
       <workItem from="1613073157962" duration="183000" />
-      <workItem from="1613126236320" duration="1832000" />
+      <workItem from="1613126236320" duration="10993000" />
+      <workItem from="1613152330863" duration="295000" />
     </task>
     <servers />
   </component>

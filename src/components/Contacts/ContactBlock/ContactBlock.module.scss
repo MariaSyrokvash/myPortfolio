@@ -2,4 +2,34 @@
 
 .contactBox {
   display: flex;
+  padding: 0 24px;
+}
+
+.contactList {
+  width: 33.3333333333%;
+  padding: 24px;
+  background: $bgPrimary;
+  border: 1px solid $border;
+  margin: 0;
+  list-style: none;
+}
+
+.contactTitle {
+  color: $accentText;
+  margin: 18px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contactText {
+  color: $secondaryText;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contactIcon {
+  padding-right: 10px;
+  opacity: 0.6;
 }
