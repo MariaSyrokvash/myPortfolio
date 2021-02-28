@@ -2,6 +2,7 @@ import React from 'react';
 import s from './ContactFormBlock.module.scss';
 import {useFormik} from 'formik';
 import {formAPI} from '../../../../dal/api';
+import axios from 'axios';
 
 type FormikErrorType = {
 	name?: string
@@ -52,22 +53,13 @@ export const ContactForm = () => {
 		},
 		onSubmit: async values => {
 			console.log(JSON.stringify(values));
-			// const {name, email, message} = values;
-			// debugger
-			// axios.post('https://smpt-server-nodejs.herokuapp.com/sendMessage', {
-			// // axios.post('http://localhost:3010/sendMessage', {
-			// 	name,
-			// 	email,
-			// 	message
-			// }).then(res => {
-			// 		console.log(res)
-			// 	})
-			// 	.catch(err => {
-			// 		console.log(err)
-			// 	})
-			const res = await formAPI.sendMessage(values)
-			console.log(res)
-
+			const {name, email, message} = values;
+			try {
+				const res = await formAPI.sendMessage({name, email, message})
+				console.log(res.data)
+			} catch (e) {
+				console.log(e)
+			}
 			formik.resetForm()
 		},
 	});
@@ -83,7 +75,6 @@ export const ContactForm = () => {
 					<label className={s.label}>Your Name</label>
 					{formik.errors.name && formik.touched.name ? <div className={s.formError}>{formik.errors.name}</div> : null}
 				</div>
-
 
 				<div className={s.group}>
 					<input type="text" required className={s.input} {...formik.getFieldProps('email')}/>
