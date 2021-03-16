@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.334f8498.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.d444ecd1.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.d444ecd1.chunk.js.map",
-    "runtime-main.js": "/myPortfolio/static/js/runtime-main.5e444a92.js",
-    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.5e444a92.js.map",
-    "static/js/2.8b109c94.chunk.js": "/myPortfolio/static/js/2.8b109c94.chunk.js",
-    "static/js/2.8b109c94.chunk.js.map": "/myPortfolio/static/js/2.8b109c94.chunk.js.map",
-    "static/js/3.6eabce20.chunk.js": "/myPortfolio/static/js/3.6eabce20.chunk.js",
-    "static/js/3.6eabce20.chunk.js.map": "/myPortfolio/static/js/3.6eabce20.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.7c5e94c9.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.d726f0d7.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.d726f0d7.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.12b72a13.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.12b72a13.js.map",
+    "static/js/2.f0f64c42.chunk.js": "/myPortfolio/static/js/2.f0f64c42.chunk.js",
+    "static/js/2.f0f64c42.chunk.js.map": "/myPortfolio/static/js/2.f0f64c42.chunk.js.map",
+    "static/js/3.edeff4ca.chunk.js": "/myPortfolio/static/js/3.edeff4ca.chunk.js",
+    "static/js/3.edeff4ca.chunk.js.map": "/myPortfolio/static/js/3.edeff4ca.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "static/css/main.334f8498.chunk.css.map": "/myPortfolio/static/css/main.334f8498.chunk.css.map",
-    "static/js/2.8b109c94.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.8b109c94.chunk.js.LICENSE.txt",
-    "static/media/Avatar.module.css": "/myPortfolio/static/media/avatar.f6da5599.jpg",
+    "static/css/main.7c5e94c9.chunk.css.map": "/myPortfolio/static/css/main.7c5e94c9.chunk.css.map",
+    "static/js/2.f0f64c42.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.f0f64c42.chunk.js.LICENSE.txt",
+    "static/media/Avatar.module.scss": "/myPortfolio/static/media/avatar.f6da5599.jpg",
     "static/media/social.86fabd36.jpg": "/myPortfolio/static/media/social.86fabd36.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e444a92.js",
-    "static/js/2.8b109c94.chunk.js",
-    "static/css/main.334f8498.chunk.css",
-    "static/js/main.d444ecd1.chunk.js"
+    "static/js/runtime-main.12b72a13.js",
+    "static/js/2.f0f64c42.chunk.js",
+    "static/css/main.7c5e94c9.chunk.css",
+    "static/js/main.d726f0d7.chunk.js"
   ]
 }
