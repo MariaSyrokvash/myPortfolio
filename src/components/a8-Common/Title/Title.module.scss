@@ -51,3 +51,13 @@
   font-size: 20px;
 }
 
+
+@media (max-width: 600px) {
+  .aboutTitle {
+    font-size: 35px;
+  }
+
+  .aboutWrapperIcon {
+    margin: 5px 0 40px;
+  }
+}

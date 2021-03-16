@@ -6,8 +6,8 @@ import {TypingEffect} from './x1-TypingEffect/TypingEffect';
 export const Intro = () => {
 	return (
 		<a className={`${s.box} ${s.borderBtmRight}`}>
-			<span className={s.textIntro}>Hi There ! I'm</span>
-			<span className={s.textIntroName}>Mariya Syrokvash</span>
+			<span className={s.textIntro}>Hi There! I'm</span>
+			<span className={s.textIntroName}>Maria Syrokvash</span>
 			<TypingEffect />
 		</a>
 	);

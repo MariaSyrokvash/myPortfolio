@@ -181,3 +181,18 @@
     background: transparent;
   }
 }
+
+
+@media (max-width: 600px) {
+  .contactBox {
+    width: 100%;
+  }
+
+  .formTitle {
+    font-size: 1rem;
+  }
+
+  .formText {
+    width: 100%;
+  }
+}

@@ -89,3 +89,64 @@
   background-color: $line;
   bottom: 0;
 }
+
+@media (max-width: 900px) {
+
+  .personalDesc {
+    width: 100%;
+    .personalInfoInner {
+      width: 100%;
+    }
+  }
+
+}
+
+@media (max-width: 600px) {
+  .personalBox {
+    padding-bottom: 40px;
+
+    .personalInfo {
+      .personalInfoTitle {
+
+        .personalIcon {
+        }
+
+        .personalInfoHeading {
+          margin: 0 0 12px;
+          font-size: 20px;
+          line-height: 110%;
+          font-weight: 800;
+          text-transform: uppercase;
+        }
+      }
+
+      .personalDesc {
+        width: 100%;
+        margin-bottom: 25px;
+      }
+
+      .personalInfoInner {
+        width: 100%;
+        display: flex;
+        margin: 0;
+
+        .personalInfoList {
+          height: auto;
+
+          .personalInfoItem {
+            padding-bottom: 20px;
+          }
+        }
+
+      }
+    }
+
+    .resume {
+
+
+      .resumeLink {
+
+      }
+    }
+  }
+}

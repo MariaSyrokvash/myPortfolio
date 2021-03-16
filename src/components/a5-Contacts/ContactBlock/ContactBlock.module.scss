@@ -6,7 +6,7 @@
 }
 
 .contactList {
-  width: 33.3333333333%;
+  width: 35.3333333333%;
   padding: 24px;
   background: $bgPrimary;
   border: 1px solid $border;
@@ -32,4 +32,25 @@
 .contactIcon {
   padding-right: 10px;
   opacity: 0.6;
+}
+
+@media (max-width: 1050px) {
+  .contactList {
+    width: 38%;
+  }
+  .contactText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactBox {
+    flex-direction: column;
+    padding: 20px 24px;
+  }
+
+  .contactList {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

@@ -10,7 +10,7 @@ export const TypingEffect = () => {
         speed={80}
         eraseSpeed={30}
         eraseDelay={3000}
-        text={["I'm Frontend developer"]}
+        text={["Frontend developer"]}
         cursor=''
       />
   );

@@ -38,3 +38,24 @@
   cursor: pointer;
   z-index: 100;
 }
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+  .rightBox {
+    width: 100%;
+    left: 0% !important;
+    position: relative;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .linkBack {
+    right: 20px;
+    top: 10px;
+  }
+}

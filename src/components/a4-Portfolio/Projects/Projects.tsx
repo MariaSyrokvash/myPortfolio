@@ -20,7 +20,7 @@ export const Projects: FC<ProjectType> = ({title, content, style}) => {
 	const projects = project.map(project => {
 		return <div className={s.tiles} key={project.id}>
 				<a className={s.tile} href="#">
-					<img src={project.image}/>
+					<img src={project.image} className={s.projectImage}/>
 					<div className={s.details}>
 						<span className={s.title}>{project.heading}</span>
 						<span className={s.info}><a href={project.demo} target="_blank">Demo</a></span>
