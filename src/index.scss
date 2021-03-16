@@ -3,7 +3,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  //font-family: 'Lato', serif, Calibri, Arial;
   font-family: 'Open Sans', sans-serif;
   color: $primaryText;
   background: $bgPrimary;
@@ -15,7 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 
 * {
   box-sizing: border-box;

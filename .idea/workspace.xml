@@ -2,15 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/a2-Intro/x1-TypingEffect/TypingEffect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ModalForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a8-Common/Loader/Loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a8-Common/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a8-Common/Modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a8-Common/Modal/Modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/Intro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/social.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/projectCover/social.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo/PersonalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Experience/Experience.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Resume.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatar/Avatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatar/Avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatar/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a1-Avatar/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a2-Intro/Intro.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a2-Intro/Intro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a6-Menu/Menu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a6-Menu/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Portfolio.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Project/Project.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Project/Project.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Routes/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a7-Routes/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a8-Common/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a8-Common/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a8-Common/Title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a8-Common/Title/Title.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dal/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +61,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="Sass File" />
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mr9z08bZngn5YjvrsBzqiYwXnR" />
   <component name="ProjectViewState">
@@ -39,8 +90,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/a8-Common/Modal" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,18 +105,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/a8-Common/Modal" />
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock/ContactFormBlock" />
       <recent name="$PROJECT_DIR$/src/components/Contacts" />
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
       <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills" />
-      <recent name="$PROJECT_DIR$/src/components/AboutMe/PersonalInfo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/projectCover" />
+      <recent name="$PROJECT_DIR$/src/components/a5-Contacts" />
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
       <recent name="$PROJECT_DIR$/src/assets/image" />
       <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume" />
-      <recent name="$PROJECT_DIR$/src/components/Avatar" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +143,11 @@
       <workItem from="1613390098352" duration="4000" />
       <workItem from="1613485297264" duration="1124000" />
       <workItem from="1614339018296" duration="392000" />
-      <workItem from="1614519499344" duration="901000" />
+      <workItem from="1614519499344" duration="1023000" />
+      <workItem from="1614588509405" duration="1642000" />
+      <workItem from="1614590786189" duration="2663000" />
+      <workItem from="1614594133682" duration="959000" />
+      <workItem from="1614595568605" duration="19474000" />
     </task>
     <servers />
   </component>

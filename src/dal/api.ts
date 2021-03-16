@@ -7,7 +7,13 @@ const instance = axios.create({
 })
 
 export const formAPI = {
-	sendMessage(values: any) {
+	sendMessage(values: ValuesType) {
 		return instance.post(`sendMessage`, {values})
 	}
+}
+
+type ValuesType = {
+	name?: string
+	email?: string
+	message?: string
 }

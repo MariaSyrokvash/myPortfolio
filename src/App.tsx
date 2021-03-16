@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './App.module.scss';
-import {Avatar} from './components/Avatar/Avatar';
-import {Routes} from './components/Routes/Routes';
-import {Main} from './components/Main/Main';
+import {Avatar} from './components/a1-Avatar/Avatar';
+import {Routes} from './components/a7-Routes/Routes';
+import {Menu} from './components/a6-Menu/Menu';
 
 const App = () => {
 	return (
@@ -12,7 +12,7 @@ const App = () => {
 				</div>
 				<div className={s.rightBox}>
 
-					<Main/>
+					<Menu/>
 					<Routes/>
 
 				</div>
