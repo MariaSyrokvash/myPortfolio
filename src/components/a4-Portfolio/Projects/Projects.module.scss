@@ -3,8 +3,14 @@
 .projectBox {
   display: flex;
   width: 100%;
+  padding: 0 30px;
   justify-content: space-around;
-  z-index: 1;
+  flex-wrap: wrap;
+}
+
+.tiles {
+  width: 450px;
+  margin-bottom: 20px;
 }
 
 .tiles .tile {
@@ -18,10 +24,8 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
 }
 
-.tile:hover {
-  z-index: 110;
-  background-color: #2c2c2c;
-  opacity: 0.2;
+.projectImage {
+  border-radius: 20px;
 }
 
 .tiles .tile img {
@@ -31,13 +35,18 @@
 }
 
 .tiles .tile .details {
-  z-index: 120;
   font-size: 16px;
   padding: 20px;
   color: #fff;
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.details {
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .tiles .tile .details span {
@@ -50,13 +59,35 @@
   transition-delay: 0s;
 }
 
+
 .tiles .tile .details .title {
-  opacity: 1;
-  z-index: 130;
   line-height: 1;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 25px;
+  margin-bottom: 15px;
   color: #ffb400;
+}
+
+.link {
+  margin-left: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  color: #ffb400;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link:hover {
+  color: #ffb400;
+  transition: 0.3ms;
 }
 
 .tiles .tile .details .info {
@@ -71,6 +102,13 @@
 .tiles .tile:hover:before,
 .tiles .tile:hover span {
   opacity: 1;
+}
+
+.tiles .tile:focus:before,
+.tiles .tile:focus span,
+.tiles .tile:hover:before,
+.tiles .tile:hover .details {
+  background: rgba(17, 16, 16, 0.8);
 }
 
 .tiles .tile:focus:before,
@@ -90,21 +128,30 @@
 
 .tiles .tile:focus .info,
 .tiles .tile:hover .info {
-  transition-delay: 0.25s;
+  transition-delay: 0.35s;
 }
 
-
-@media (max-width: 900px) {
-
-  .tiles .tile {
-
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .projectBox {
     flex-direction: column;
     align-items: center;
+  }
+
+  .tiles {
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .tiles {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .projectBox {
+    padding: 0;
+    flex-direction: row;
   }
 }
 

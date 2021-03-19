@@ -59,7 +59,7 @@
       }
 
       .expHeading {
-        color: $primaryText;
+        color: $accentText;
         font-size: 14px;
         line-height: 16.5px;
         font-weight: 600;
@@ -73,6 +73,10 @@
         font-size: 12px;
         padding-bottom: 7px;
       }
+
+    }
+    .expItem:last-child {
+      padding-right: 130px;
     }
   }
 }

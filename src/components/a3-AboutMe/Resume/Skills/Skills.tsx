@@ -1,34 +1,44 @@
 import React from 'react';
 import s from './Skills.module.scss'
 import {v1} from 'uuid';
-import {faReact, faJs, faGithub, faCss3, faHtml5} from '@fortawesome/free-brands-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {IconProp} from '@fortawesome/fontawesome-svg-core';
+import css from './image/css.svg'
+import git from './image/git.svg'
+import html from './image/html.svg'
+import jest from './image/jest.svg'
+import js from './image/js.svg'
+import react from './image/react.svg'
+import redux from './image/redux.svg'
+import rest from './image/rest-api.svg'
+import type from './image/typescriptlang-icon.svg'
+import story from './image/storybook.svg'
 
 type SkillsType = {
 	id: string
 	skill: string
-	icon: IconProp
+	icon: any
 }
 
 const skills: Array<SkillsType> = [
-	{id: v1(), skill: 'React', icon: faReact},
-	{id: v1(), skill: 'Redux', icon: faReact},
-	{id: v1(), skill: 'TypeScript', icon: faReact},
-	{id: v1(), skill: 'JavaScript', icon: faJs},
-	{id: v1(), skill: 'REST API', icon: faReact},
-	{id: v1(), skill: 'HTML5', icon: faHtml5},
-	{id: v1(), skill: 'CSS & preprocessing', icon: faCss3},
-	{id: v1(), skill: 'TDD - Jest', icon: faReact},
-	{id: v1(), skill: 'Storybook', icon: faReact},
-	{id: v1(), skill: 'Github', icon: faGithub},
+	{id: v1(), skill: 'React', icon: react},
+	{id: v1(), skill: 'Redux', icon: redux},
+	{id: v1(), skill: 'TypeScript', icon: type},
+	{id: v1(), skill: 'JavaScript', icon: js},
+	{id: v1(), skill: 'REST API', icon: rest},
+	{id: v1(), skill: 'HTML5', icon: html},
+	{id: v1(), skill: 'CSS & preprocessing', icon: css},
+	{id: v1(), skill: 'TDD - Jest', icon: jest},
+	{id: v1(), skill: 'Storybook', icon: story},
+	{id: v1(), skill: 'Github', icon: git},
 ]
 
 export const Skills = () => {
 
 	const skillsList = skills.map(skill => {
 		return <li key={skill.id} className={s.skillItem}>
-				<span className={s.aboutIcon}><FontAwesomeIcon icon={skill.icon}/></span>
+				{/*<span className={s.aboutIcon}>*/}
+					<img src={skill.icon} className={s.aboutIcon}/>
+					{/*<FontAwesomeIcon icon={skill.icon}/>*/}
+					{/*</span>*/}
 				<p className={s.skillTitle}>{skill.skill}</p>
 			</li>
 	})

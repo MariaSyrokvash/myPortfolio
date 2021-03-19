@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/image/react.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a2-Intro/Intro.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a2-Intro/Intro.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a2-Intro/Intro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a2-Intro/Intro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a2-Intro/x1-TypingEffect/TypingEffect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a2-Intro/x1-TypingEffect/TypingEffect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Education/Education.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Experience/Experience.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Resume.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a4-Portfolio/Portfolio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Portfolio.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/ContactBlock/ContactFormBlock/ContactFormBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a5-Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a5-Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a6-Menu/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a6-Menu/Menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a8-Common/Title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a8-Common/Title/Title.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +77,11 @@
       <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/image" />
       <recent name="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/projectCover" />
       <recent name="$PROJECT_DIR$/src/components/a5-Contacts" />
       <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
       <recent name="$PROJECT_DIR$/src/assets/image" />
-      <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +113,9 @@
       <workItem from="1614590786189" duration="2663000" />
       <workItem from="1614594133682" duration="959000" />
       <workItem from="1614595568605" duration="19474000" />
-      <workItem from="1615926104848" duration="6698000" />
+      <workItem from="1615926104848" duration="6839000" />
+      <workItem from="1616073579774" duration="6133000" />
+      <workItem from="1616159207120" duration="4552000" />
     </task>
     <servers />
   </component>

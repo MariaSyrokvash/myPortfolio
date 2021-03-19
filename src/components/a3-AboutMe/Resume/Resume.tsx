@@ -17,7 +17,7 @@ export const Resume = () => {
 	return (
 		<div className={s.resumeBox}>
 			<div className={s.resumeBtnBox}>
-				<button onClick={experienceClickHandler} className={experienceClassName}>experience</button>
+				<button onClick={experienceClickHandler} className={experienceClassName}>education</button>
 				<button onClick={skillsClickHandler} className={skillsClassName}>skills</button>
 			</div>
 			<div className={s.resumeComponentBox}>

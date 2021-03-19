@@ -6,45 +6,39 @@ import {v1} from 'uuid';
 const experience = [
 	{
 		id: v1(),
-		company: 'https://htmlacademy.ru/',
-		title: 'HTML и CSS. Профессиональная вёрстка сайтов',
-		years: 'март 2019 - май 2019',
-		description: 'HTML Academy'
-	},
-	{
-		id: v1(),
-		company: 'https://htmlacademy.ru/',
-		title: 'HTML и CSS. Адаптивная вёрстка и автоматизация',
-		years: 'май 2019 - август 2019',
-		description: 'HTML Academy'
-	},
-	{
-		id: v1(),
-		company: 'https://htmlacademy.ru/',
-		title: 'JavaScript. Профессиональная разработка веб-интерфейсов',
-		years: 'август 2019 - октябрь 2019',
-		description: 'HTML Academy'
+		company: 'https://it-incubator.by/React-online.html',
+		title: 'Front-end (React/Redux/Typescript)',
+		description: 'IT-incubator, 2021'
 	},
 	{
 		id: v1(),
 		company: 'https://rollingscopes.com/',
-		title: 'RS 2020 Q1 (JavaScript)',
-		years: 'февраль 2020 - июль 2020',
-		description: 'The Rolling Scopes School'
+		title: 'JavaScript / Front-end',
+		description: 'The Rolling Scopes School, 2020'
 	},
 	{
 		id: v1(),
 		company: 'https://andersenlab.com/',
-		title: 'Общий JavaScript',
-		years: 'август 2020 - сентябрь 2020',
-		description: 'Andersen'
+		title: 'Andersen JavaScript Course',
+		description: 'Andersen, 2020'
 	},
 	{
 		id: v1(),
-		company: 'https://it-incubator.by/React-online.html',
-		title: 'React + Redux + Typescript',
-		years: 'сентябрь 2020 - февраль 2021',
-		description: 'IT-incubator'
+		company: 'https://htmlacademy.ru/',
+		title: 'Professional HTML &CSS. Responsive layout and automation',
+		description: 'HTML Academy, 2019'
+	},
+	{
+		id: v1(),
+		company: 'https://htmlacademy.ru/',
+		title: 'JavaScript for beginners',
+		description: 'HTML Academy, 2019'
+	},
+	{
+		id: v1(),
+		company: 'https://www.sbmt.bsu.by/',
+		title: 'Bachelor degree in logistics',
+		description: 'Belarusian State University, School of Business and Management, 2015'
 	},
 ]
 
@@ -52,16 +46,15 @@ export const Experience = () => {
 
 	const experienceList = experience.map(exp => {
 		return <li key={exp.id} className={s.expItem}>
+			<p className={s.expHeading}>{exp.title}</p>
 			<a className={s.expLink} href={exp.company} target="_blank">{exp.description}</a>
-			<p className={s.expYear}>{exp.years}</p>
-			<p  className={s.expHeading}>{exp.title}</p>
 		</li>
 
 	})
 	return (
 		<div className={`${s.expBox} ${s.animation}`}>
 			<div className={s.expBoxTitle}>
-				<h3 className={s.expTitle}>Experience</h3>
+				<h3 className={s.expTitle}>Education</h3>
 			</div>
 			<ul className={s.expList}>
 				{experienceList}

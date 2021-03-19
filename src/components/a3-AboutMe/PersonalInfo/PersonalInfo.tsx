@@ -7,7 +7,7 @@ const personalInfo = [
 	{title: 'First Name: ', content: 'Mariya'},
 	{title: 'Last Name: ', content: 'Syrakvash'},
 	{title: 'Date of birth: ', content: '11 May 1994'},
-	{title: 'English: ', content: 'B1'},
+	{title: 'English: ', content: 'Intermediate (in progress)'},
 	{title: 'Address: ', content: 'Minsk, Belarus'},
 	{title: 'Email: ', content: 'mariya.syrokvash@gmail.com'},
 	{title: 'Phone: ', content: '+375 29 859 58 38'},
@@ -18,8 +18,8 @@ export const PersonalInfo = () => {
 
 	const info = personalInfo.map((el, index) => {
 		return <li className={s.personalInfoItem} key={index}>
-			<span>{el.title}</span>
-			<span>{el.content}</span>
+			<span className={s.title}>{el.title}</span>
+			<span className={s.content}>{el.content}</span>
 		</li>
 	})
 	return (
@@ -29,10 +29,12 @@ export const PersonalInfo = () => {
 					<span className={s.personalIcon}><FontAwesomeIcon icon={faUser}/></span>
 					<h4 className={s.personalInfoHeading}>Personal Info</h4>
 				</div>
-				<p className={s.personalDesc}>I'm a Freelance Web Designer &amp; Developer based in Moscow, Russia.
-					I have serious passion for UI effects, animations and creating intuitive,
-					with over a decade of experience.
-				</p>
+				<div className={s.personalDesc}>
+					I'm a frontend developer who has a results-focused attitude to creating SPA, using React(JS/TS), Redux.
+							My free time is dedicated to Codewars, programming tutorials, and becoming familiar with NodeJS, because, in
+					the future, I see myself as a Full Stack Developer.
+					<p className={s.subPersonalDesc}>Ready to consider project work and full-time employment. </p>
+				</div>
 				<div className={s.personalInfoInner}>
 					<ul className={s.personalInfoList}>
 						{info}

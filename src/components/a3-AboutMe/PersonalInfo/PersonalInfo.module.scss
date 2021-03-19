@@ -24,10 +24,17 @@
     }
 
     .personalDesc {
-      width: 80%;
+      width: 100%;
       color: $secondaryText;
-      font-size: 15px;
-      line-height: 2;
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 30px;
+      text-align: justify-all;
+      text-indent: 2em;
+
+      .subPersonalDesc {
+        margin: 0;
+      }
     }
 
     .personalInfoInner {
@@ -50,6 +57,11 @@
           display: flex;
           padding-bottom: 13px;
           font-weight: 700;
+
+          .title {
+            margin-right: 8px;
+            color: #ffb400;
+          }
         }
       }
 

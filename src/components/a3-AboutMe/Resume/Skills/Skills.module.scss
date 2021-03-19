@@ -42,16 +42,15 @@
       min-height: 140px;
 
       .aboutIcon {
-        font-size: 25px;
-        color: $accentText;
+        width: 30px;
+        height: 30px;
       }
 
       .skillTitle {
         min-width: inherit;
         text-align: center;
         font-weight: 600;
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 15px;
         word-wrap:  break-word;
       }
     }
