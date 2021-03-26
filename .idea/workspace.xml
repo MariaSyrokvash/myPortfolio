@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911077ef-a582-4a3f-b2c2-4de02b557739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/a1-Avatar/portfolioImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/cv/cv.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a1-Avatar/Avatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/PersonalInfo.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +68,11 @@
       <recent name="$PROJECT_DIR$/src/components/AboutMe/Resume/Skills" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo/cv" />
+      <recent name="$PROJECT_DIR$/src/components/a3-AboutMe/PersonalInfo" />
+      <recent name="$PROJECT_DIR$/src/components/a3-AboutMe" />
+      <recent name="$PROJECT_DIR$/src/assets/cv" />
       <recent name="$PROJECT_DIR$/src/components/a1-Avatar" />
-      <recent name="$PROJECT_DIR$/src/components/a3-AboutMe/Resume/Skills/image" />
-      <recent name="$PROJECT_DIR$/src/components/a4-Portfolio/Projects/projectCover" />
-      <recent name="$PROJECT_DIR$/src/components/a5-Contacts" />
-      <recent name="$PROJECT_DIR$/src/components/Contacts/ContactBlock" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +107,8 @@
       <workItem from="1615926104848" duration="6839000" />
       <workItem from="1616073579774" duration="6133000" />
       <workItem from="1616159207120" duration="5102000" />
-      <workItem from="1616759519391" duration="167000" />
+      <workItem from="1616759519391" duration="1611000" />
+      <workItem from="1616762052558" duration="94000" />
     </task>
     <servers />
   </component>
